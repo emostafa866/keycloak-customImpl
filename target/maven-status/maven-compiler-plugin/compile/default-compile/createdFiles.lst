@@ -1,0 +1,4 @@
+userFederation\Customer.class
+userFederation\CustomUserFederationProvider.class
+userFederation\MyUserStorageProviderFactory.class
+userFederation\CustomUserAdapter.class

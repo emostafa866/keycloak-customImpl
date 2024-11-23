@@ -1,4 +1,5 @@
 userFederation\Customer.class
-userFederation\CustomUserFederationProvider.class
+userFederation\CustomTokenMapper.class
 userFederation\MyUserStorageProviderFactory.class
+userFederation\CustomerUserStorageProvider.class
 userFederation\CustomUserAdapter.class

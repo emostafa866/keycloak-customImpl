@@ -1,5 +1,5 @@
 # Use Keycloak 18.0.2 as the base image
-FROM quay.io/keycloak/keycloak:21.1.2
+FROM quay.io/keycloak/keycloak:18.0.2
 
 # Switch to root to install custom provider
 USER root

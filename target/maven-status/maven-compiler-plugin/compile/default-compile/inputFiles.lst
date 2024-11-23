@@ -1,4 +1,5 @@
 D:\projects\keycloak\src\main\java\userFederation\CustomUserAdapter.java
+D:\projects\keycloak\src\main\java\userFederation\CustomTokenMapper.java
 D:\projects\keycloak\src\main\java\userFederation\MyUserStorageProviderFactory.java
-D:\projects\keycloak\src\main\java\userFederation\CustomUserFederationProvider.java
+D:\projects\keycloak\src\main\java\userFederation\CustomerUserStorageProvider.java
 D:\projects\keycloak\src\main\java\userFederation\Customer.java

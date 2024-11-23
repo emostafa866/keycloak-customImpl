@@ -6,7 +6,7 @@ import org.keycloak.models.KeycloakSessionFactory;
 import org.keycloak.storage.UserStorageProviderFactory;
 import org.springframework.web.client.RestTemplate;
 
-public class MyUserStorageProviderFactory implements UserStorageProviderFactory<CustomUserFederationProvider> {
+public class MyUserStorageProviderFactory implements UserStorageProviderFactory<CustomerUserStorageProvider> {
 
     public static final String PROVIDER_NAME = "custom-user-federation-provider";
 
@@ -17,8 +17,8 @@ public class MyUserStorageProviderFactory implements UserStorageProviderFactory<
 
 
     @Override
-    public CustomUserFederationProvider create(KeycloakSession session, ComponentModel model) {
-        return new CustomUserFederationProvider(session, model);
+    public CustomerUserStorageProvider create(KeycloakSession session, ComponentModel model) {
+        return new CustomerUserStorageProvider(session, model);
     }
 
 
